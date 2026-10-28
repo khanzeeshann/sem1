@@ -7,7 +7,7 @@ int main() {
 	if(M1 > M2 && M1 > M3) {
 	    cout<<M1;
 	}
-	else if (M2 > M3) {
+	else if (M2 > M1 && M2 > M3) {
 	    cout<<M2;
 	}
 	else
